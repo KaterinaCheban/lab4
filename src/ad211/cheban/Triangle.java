@@ -7,14 +7,13 @@ public class Triangle { // поля
         this.base = base;
         this.height = height;
     }
-    // методи обчислень
-    public  double getSquare(){
+    public  double getSquare(){ // метод площі
         return 0.5 * base * height;
     }
-    public double getHypotenuse(){
+    public double getHypotenuse(){ // метод гіпотенузи
         return Math.sqrt(base*base + height*height);
     }
-    public double getPerimeter(){
+    public double getPerimeter(){ // метод периметру
         return getHypotenuse() + height + base;
     }
 }
